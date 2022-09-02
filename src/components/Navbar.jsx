@@ -30,6 +30,11 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
+                <Link to="resumee" smooth={true} duration={500}>
+                Resumee
+                </Link>
+            </li>
+            <li>
                 <Link to="skills" smooth={true} duration={500}>
                 Skills
                 </Link>
@@ -62,6 +67,11 @@ const Navbar = () => {
             <li className="py-6 text-4xl">
                 <Link onClick={handleCLick} to="about" smooth={true} duration={500}>
                 About
+                </Link>
+            </li>
+            <li className="py-6 text-4xl">
+                <Link onClick={handleCLick} to="resumee" smooth={true} duration={500}>
+                Resumee
                 </Link>
             </li>
             <li className="py-6 text-4xl">
@@ -105,10 +115,12 @@ const Navbar = () => {
                     </Link> 
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
-                        Resumee <BsFillPersonLinesFill size={30} />  
-                    </a>
+                    <Link to="resumee" smooth={true} duration={500} className='flex justify-between items-center w-full text-gray-300'>
+                        <a className='flex justify-between items-center w-full text-gray-300'
+                        href="/">
+                            Resumee <BsFillPersonLinesFill size={30} />  
+                        </a>
+                    </Link>
                 </li>
             </ul>
         </div>

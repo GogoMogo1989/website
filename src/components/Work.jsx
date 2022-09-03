@@ -1,7 +1,7 @@
 import React from 'react'
 import WorkImg from '../assets/Weather-Api.jpg'
 import WorkImg2 from '../assets/Nasa.jpg'
-import WorkImg3 from '../assets/Profil.jpg'
+import WorkImg3 from '../assets/Profile.jpg'
 
 const Work = () => {
   return (
@@ -30,7 +30,7 @@ const Work = () => {
                             </div>
                         </div>
                 </div>
-                
+
                 <div style={{backgroundImage: `url(${WorkImg2})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -52,7 +52,7 @@ const Work = () => {
 
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Javascript NASA
+                                Node JS Profile
                             </span>
                             <div className='pt-8 text-center '>
                                 <a href="https://github.com/GogoMogo1989/profile">

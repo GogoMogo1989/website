@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/Weather-Api.jpg'
+import WorkImg2 from '../assets/Nasa.jpg'
 
 const Work = () => {
   return (
@@ -27,6 +28,8 @@ const Work = () => {
                                 </a>
                             </div>
                         </div>
+                </div>
+                <div style={{backgroundImage: `url(${WorkImg2})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
@@ -41,9 +44,8 @@ const Work = () => {
                                 </a>
                             </div>
                         </div>
-
+                    </div>
                 </div>
-            </div>
         </div>
     </div>
   )

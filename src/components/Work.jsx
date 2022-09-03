@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkImg from '../assets/Nasa.jpg'
+import WorkImg from '../assets/Weather-Api.jpg'
 
 const Work = () => {
   return (
@@ -19,10 +19,10 @@ const Work = () => {
                                 React JS Application
                             </span>
                             <div className='pt-8 text-center '>
-                                <a href="http://nasa.com/">
+                                <a href="https://gogomogo1989.github.io/weather/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/GogoMogo1989/weather">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>

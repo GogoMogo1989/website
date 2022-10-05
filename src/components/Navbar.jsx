@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
 
         
-        <ul className={nav===false ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#08192f] flex flex-col justify-center items-center'}>
+        <ul className={nav===false ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#4b75ac] flex flex-col justify-center items-center'}>
             <li className="py-6 text-4xl">
                 <Link onClick={handleCLick} to="home" smooth={true} duration={500}>
                 Home

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.340b24ca.css",
-    "main.js": "/website/static/js/main.d2dbd7a5.js",
+    "main.css": "/website/static/css/main.981ede1f.css",
+    "main.js": "/website/static/js/main.9b883850.js",
     "static/media/wolflogo.png": "/website/static/media/wolflogo.7cbf481d1e5d16209a64.png",
     "static/media/Profile.jpg": "/website/static/media/Profile.6468c293d71b5b0dacf7.jpg",
     "static/media/Ionic-React.jpg": "/website/static/media/Ionic-React.114be0ee4594aaff9c28.jpg",
@@ -16,11 +16,11 @@
     "static/media/css.png": "/website/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/website/index.html",
-    "main.340b24ca.css.map": "/website/static/css/main.340b24ca.css.map",
-    "main.d2dbd7a5.js.map": "/website/static/js/main.d2dbd7a5.js.map"
+    "main.981ede1f.css.map": "/website/static/css/main.981ede1f.css.map",
+    "main.9b883850.js.map": "/website/static/js/main.9b883850.js.map"
   },
   "entrypoints": [
-    "static/css/main.340b24ca.css",
-    "static/js/main.d2dbd7a5.js"
+    "static/css/main.981ede1f.css",
+    "static/js/main.9b883850.js"
   ]
 }

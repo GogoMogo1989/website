@@ -6,10 +6,10 @@ import WorkImg4 from '../assets/Ionic-React.jpg'
 
 const Work = () => {
   return (
-    <div name="work" className='w-full md:h-screen text-gray-300 bg-[#4b75ac]'>
+    <div name="work" className='w-full md:h-screen text-[#ccc6f6] bg-[#4b75ac]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#7f779b]'>Work</p>
+                <p className='text-4xl font-bold inline border-b-4 text-[#ccc6f6] border-[#7f779b]'>Work</p>
                 <p className='py-6'>Check out my works!</p>
             </div>
 
@@ -18,7 +18,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-[#ccc6f6] tracking-wider'>
                                 React JS Weather-Api
                             </span>
                             <div className='pt-8 text-center '>
@@ -35,7 +35,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${WorkImg2})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-[#ccc6f6] tracking-wider'>
                                 Javascript NASA
                             </span>
                             <div className='pt-8 text-center '>
@@ -52,7 +52,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${WorkImg3})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-[#ccc6f6] tracking-wider'>
                                 Node JS Profile
                             </span>
                             <div className='pt-8 text-center '>
@@ -66,7 +66,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${WorkImg4})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-[#ccc6f6] tracking-wider'>
                                 Ionic-React
                             </span>
                             <div className='pt-8 text-center '>

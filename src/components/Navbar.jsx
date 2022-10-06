@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Logo from '../assets/wolflogo.png'
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
@@ -11,6 +12,9 @@ const Navbar = () => {
 
   return (
      <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#4b75ac] text-white'>
+        <div>
+            <img src={Logo} alt="logo" style={{width: '50px'}} />
+        </div>
 
 
 

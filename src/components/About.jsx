@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-screen bg-[#4b75ac] text-[#ccc6f6]'>
+    <div name="about" className='w-full h-screen bg-[#4b75ac] text-white'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className="sm:text-right pb-8 pl-4">
@@ -14,7 +14,7 @@ const About = () => {
                     <p className='sm:text-right text-4xl font-bold '>Hi! I'm David, please look around.</p>
                 </div>
                 <div>
-                    <p>I always intrested in IT, thats why I decided, I learn a new proffesion. I have already learning in highschool to html, css, and javascript, and I realy liked it, thats why I choice to frontend developer proffesion. I made many webpage, and I would like to show it to you! I hope you like it!:-) If you would like to contact me, please send me a email! You have find it my email in Contact section.
+                    <p>I've always been interested in IT, which is why I decided to learn a new profession. In high school I had already learned html, css, and javascript, and I really liked it, and that's why I decided to become a frontend developer. I made some websites, hope you like them! If you want to contact me, please send me an email! You can find my contact details in the Contact section.
                     </p>
                 </div>
             </div>

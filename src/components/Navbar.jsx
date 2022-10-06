@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleCLick = () => setNav(nav===false)
 
   return (
-     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#4b75ac] text-[#ccc6f6]'>
+     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#4b75ac] text-white'>
         <div>
             <img src={Logo} alt="logo" style={{width: '50px'}} />
         </div>
@@ -95,28 +95,28 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-[#ccc6f6]'
+                    <a className='flex justify-between items-center w-full text-white'
                     href="https://www.linkedin.com/in/d%C3%A1vid-kov%C3%A1cs-farkas-733732241/">
                         LinkedIn <FaLinkedin size={30} />  
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-[#ccc6f6]'
+                    <a className='flex justify-between items-center w-full text-white'
                     href="https://github.com/GogoMogo1989">
                         Github <FaGithub size={30} />  
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <Link to="contact" smooth={true} duration={500} className='flex justify-between items-center w-full text-gray-300'>
-                        <a className='flex justify-between items-center w-full text-[#ccc6f6]'
+                    <Link to="contact" smooth={true} duration={500} className='flex justify-between items-center w-full text-white'>
+                        <a className='flex justify-between items-center w-full text-white'
                         href="/">
                             Email <HiOutlineMail size={30} />  
                         </a>
                     </Link> 
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <Link to="resumee" smooth={true} duration={500} className='flex justify-between items-center w-full text-[#ccc6f6]'>
-                        <a className='flex justify-between items-center w-full text-[#ccc6f6]'
+                    <Link to="resumee" smooth={true} duration={500} className='flex justify-between items-center w-full text-white'>
+                        <a className='flex justify-between items-center w-full text-white'
                         href="/">
                             Resumee <BsFillPersonLinesFill size={30} />  
                         </a>

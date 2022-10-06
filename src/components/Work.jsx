@@ -6,7 +6,7 @@ import WorkImg4 from '../assets/Ionic-React.jpg'
 
 const Work = () => {
   return (
-    <div name="work" className='w-full md:h-screen text-[#ccc6f6] bg-[#4b75ac]'>
+    <div name="work" className='w-full md:h-screen text-white bg-[#4b75ac]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#ccc6f6] border-[#7f779b]'>Work</p>

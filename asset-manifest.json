@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/website/static/css/main.40cfd703.css",
-    "main.js": "/website/static/js/main.e4edf3ff.js",
+    "main.js": "/website/static/js/main.fbeb6753.js",
     "static/media/Profile.jpg": "/website/static/media/Profile.6468c293d71b5b0dacf7.jpg",
     "static/media/Ionic-React.jpg": "/website/static/media/Ionic-React.114be0ee4594aaff9c28.jpg",
+    "static/media/logo-no-background.png": "/website/static/media/logo-no-background.fb9cad7d2b5fa4036599.png",
     "static/media/react.png": "/website/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/website/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/Nasa.jpg": "/website/static/media/Nasa.6c104c2b75dc229fd2ec.jpg",
+    "static/media/Blog.jpg": "/website/static/media/Blog.1f5034d88543dfc5962f.jpg",
     "static/media/Weather-Api.jpg": "/website/static/media/Weather-Api.c593ed1cd420db56fea1.jpg",
     "static/media/github.png": "/website/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/wolf.png": "/website/static/media/wolf.29d56c1e6214ac890eff.png",
     "static/media/ionic.png": "/website/static/media/ionic.9991613c51e5ea55cb80.png",
     "static/media/html.png": "/website/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -17,10 +18,10 @@
     "static/media/javascript.png": "/website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/website/index.html",
     "main.40cfd703.css.map": "/website/static/css/main.40cfd703.css.map",
-    "main.e4edf3ff.js.map": "/website/static/js/main.e4edf3ff.js.map"
+    "main.fbeb6753.js.map": "/website/static/js/main.fbeb6753.js.map"
   },
   "entrypoints": [
     "static/css/main.40cfd703.css",
-    "static/js/main.e4edf3ff.js"
+    "static/js/main.fbeb6753.js"
   ]
 }

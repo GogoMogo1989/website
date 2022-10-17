@@ -68,10 +68,10 @@ const Work = () => {
 
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-[#ccc6f6] tracking-wider'>
-                                Ionic-React
+                                React-Node-MongoDB Blog
                             </span>
                             <div className='pt-8 text-center '>
-                                <a href="https://github.com/GogoMogo1989/blog">
+                                <a href="https://github.com/GogoMogo1989/blog2">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -82,7 +82,7 @@ const Work = () => {
 
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-[#ccc6f6] tracking-wider'>
-                                React-Blog
+                                Ionic-React Input
                             </span>
                             <div className='pt-8 text-center '>
                                 <a href="https://github.com/GogoMogo1989/ionic_practises">

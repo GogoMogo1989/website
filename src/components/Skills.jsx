@@ -7,6 +7,8 @@ import Node from '../assets/node.png'
 import React2 from '../assets/react.png'
 import Tailwind from '../assets/tailwind.png'
 import Ionic from '../assets/ionic.png'
+import MongoDB from '../assets/MongoDB.png'
+import Postman from '../assets/Postman.png'
 
 export const Skills = () => {
   return (
@@ -57,6 +59,16 @@ export const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className='w-20 mx-auto' src={Ionic} alt="ionic"/>
             <p className='my-4'>Ionic</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className='w-20 mx-auto' src={MongoDB} alt="ionic"/>
+            <p className='my-4'>MongoDB</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className='w-20 mx-auto' src={Postman} alt="ionic"/>
+            <p className='my-4'>Postman</p>
           </div>
 
         </div>

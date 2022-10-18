@@ -22,52 +22,52 @@ export const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={HTML} alt="html"/>
+            <img className='w-20 mx-auto mt-10' src={HTML} alt="html"/>
             <p className='my-4'>HTML</p>
           </div>
   
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={CSS} alt="css"/>
+            <img className='w-20 mx-auto mt-2.5' src={CSS} alt="css"/>
             <p className='my-4'>CSS</p>
           </div>
        
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={Javascript} alt="javascript"/>
+            <img className='w-20 mx-auto mt-2.5' src={Javascript} alt="javascript"/>
             <p className='my-4'>Javascript</p>
           </div>
      
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={Node} alt="node"/>
+            <img className='w-20 mx-auto mt-2.5' src={Node} alt="node"/>
             <p className='my-4'>Node</p>
           </div>
       
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={Github} alt="github"/>
+            <img className='w-20 mx-auto mt-2.5' src={Github} alt="github"/>
             <p className='my-4'>Github</p>
           </div>
   
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={React2} alt="react"/>
+            <img className='w-20 mx-auto mt-2.5' src={React2} alt="react"/>
             <p className='my-4'>React</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={Tailwind} alt="tailwind"/>
+            <img className='w-20 mx-auto mt-2.5' src={Tailwind} alt="tailwind"/>
             <p className='my-4'>Tailwind</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={Ionic} alt="ionic"/>
+            <img className='w-20 mx-auto mt-2.5' src={Ionic} alt="ionic"/>
             <p className='my-4'>Ionic</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={MongoDB} alt="ionic"/>
+            <img className='w-20 mx-auto mt-2.5' src={MongoDB} alt="ionic"/>
             <p className='my-4'>MongoDB</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto' src={Postman} alt="ionic"/>
+            <img className='w-20 mx-auto mt-2.5' src={Postman} alt="ionic"/>
             <p className='my-4'>Postman</p>
           </div>
 

@@ -68,7 +68,7 @@ const Work = () => {
 
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-[#ccc6f6] tracking-wider'>
-                                React-Node-MongoDB Blog
+                                MongoDB-Express-React-Node Blog
                             </span>
                             <div className='pt-8 text-center '>
                                 <a href="https://github.com/GogoMogo1989/blog2">

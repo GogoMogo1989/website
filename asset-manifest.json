@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.9a48eb44.css",
-    "main.js": "/website/static/js/main.11c9f5fa.js",
+    "main.css": "/website/static/css/main.049f5e31.css",
+    "main.js": "/website/static/js/main.0edf50c3.js",
+    "static/media/background2.mp4": "/website/static/media/background2.716f21596ab0e1dec8cb.mp4",
+    "static/media/background.mp4": "/website/static/media/background.824a1c5605b936e406b8.mp4",
     "static/media/Profile.jpg": "/website/static/media/Profile.6468c293d71b5b0dacf7.jpg",
     "static/media/MongoDB.png": "/website/static/media/MongoDB.0a3517e2bc8998b86203.png",
     "static/media/Ionic-React.jpg": "/website/static/media/Ionic-React.114be0ee4594aaff9c28.jpg",
-    "static/media/logo-no-background.png": "/website/static/media/logo-no-background.fb9cad7d2b5fa4036599.png",
     "static/media/react.png": "/website/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/website/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/Nasa.jpg": "/website/static/media/Nasa.6c104c2b75dc229fd2ec.jpg",
@@ -18,11 +19,11 @@
     "static/media/css.png": "/website/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/website/index.html",
-    "main.9a48eb44.css.map": "/website/static/css/main.9a48eb44.css.map",
-    "main.11c9f5fa.js.map": "/website/static/js/main.11c9f5fa.js.map"
+    "main.049f5e31.css.map": "/website/static/css/main.049f5e31.css.map",
+    "main.0edf50c3.js.map": "/website/static/js/main.0edf50c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a48eb44.css",
-    "static/js/main.11c9f5fa.js"
+    "static/css/main.049f5e31.css",
+    "static/js/main.0edf50c3.js"
   ]
 }

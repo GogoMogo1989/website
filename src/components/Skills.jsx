@@ -11,6 +11,7 @@ import Tailwind from '../assets/tailwind.png';
 import Ionic from '../assets/ionic.png';
 import MongoDB from '../assets/MongoDB.png';
 import Postman from '../assets/Postman.png';
+import Angular from '../assets/Angular.png'
 import videoBackground from '../assets/background2.mp4';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -27,6 +28,7 @@ const Skills = () => {
     { src: Ionic, title: 'Ionic' },
     { src: MongoDB, title: 'MongoDB' },
     { src: Postman, title: 'Postman' },
+    { src: Angular, title: 'Angular'}
   ];
 
   useEffect(() => {

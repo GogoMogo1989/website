@@ -7,11 +7,10 @@ import WorkImg5 from '../assets/Blog.jpg';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/autoplay';  // Az autoplay funkcióhoz
+import 'swiper/css/autoplay'; 
 
-// Import Swiper és SwiperSlide komponensek
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';  // Az autoplay modult a 'swiper' csomagból importáljuk
+import { Autoplay } from 'swiper';  
 
 const Work = () => {
   return (

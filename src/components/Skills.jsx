@@ -11,6 +11,7 @@ import Tailwind from '../assets/tailwind.png';
 import Ionic from '../assets/ionic.png';
 import MongoDB from '../assets/MongoDB.png';
 import Postman from '../assets/Postman.png';
+import videoBackground from '../assets/background2.mp4';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,33 +36,39 @@ const Skills = () => {
         opacity: 0,
         y: 50,
         duration: 1,
+        delay: index * 0.2, // Minden kártya késleltetve jelenik meg
         scrollTrigger: {
           trigger: card, 
           start: 'top 80%', 
           end: 'top 20%', 
-          scrub: true, // Görgetés közben folyamatosan animálódik
-          toggleActions: 'play none reverse none', // Ha belép a viewportba, akkor elindul, ha elhagyja, visszafelé animálódik
+          scrub: true, // A görgetés hatására folyamatosan animálódik
+          toggleActions: 'play none reverse none', 
         },
-        delay: index * 0.1, // Késleltetés a kártyák megjelenésére
       });
     });
   }, []);
 
   return (
-    <div name='skills' className='w-full h-full bg-[rgb(11,9,9)] text-gray-100 relative'>
+    <div name='skills' className='w-full h-full text-gray-100 relative'>
+
+      <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover">
+        <source src={videoBackground} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           {skillsData.map((skill, index) => (
             <div
               key={index}
-              className="skill-card shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+              className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
             >
               <img
-                className="w-20 mx-auto mt-2.5"
+                className="skill-card w-20 mx-auto mt-2.5"
                 src={skill.src}
                 alt={skill.title.toLowerCase()}
+                title={skill.title}
               />
-              <p className="my-4">{skill.title}</p>
             </div>
           ))}
         </div>

@@ -31,16 +31,6 @@ const Home = () => {
         <p className="text-gray-100 py-4 max-w-[700px] text-slide">
           Welcome to my website, you can see my work and find my contact details.
         </p>
-        <div>
-          <Link to="work" smooth={true} duration={500}>
-            <button className="text-gray-100 group border-2 px-6 py-3 my-2 flex items-center">
-              View Work
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-2" />
-              </span>
-            </button>
-          </Link>
-        </div>
       </div>
       <p className="absolute bottom-4 right-4 text-lg font-semibold text-gray-400 opacity-60">
           Home

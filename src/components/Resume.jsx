@@ -15,14 +15,14 @@ const Resume = () => {
   const [experience, setExperience] = useState([
     `2023 january - 2025 january`,
     `In my current job I work as a frontend developer using the
-    Angular framework. As part of the project, I am responsible
-    for the design and implementation of the front-end
-    architecture of the application, as well as contributing to
-    the design and implementation of new features. I also
-    refactor existing code to improve performance and
-    optimise the user experience. I work closely with backend
-    developers and designers to ensure the application meets
-    the latest industry standards and user expectations.`
+  Angular framework. As part of the project, I am responsible
+  for the design and implementation of the front-end
+  architecture of the application, as well as contributing to
+  the design and implementation of new features. I also
+  refactor existing code to improve performance and
+  optimise the user experience. I work closely with backend
+  developers and designers to ensure the application meets
+  the latest industry standards and user expectations.`
   ]);
 
   const splitText = (text) => {

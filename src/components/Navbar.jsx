@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleCLick = () => setNav(nav===false)
 
   return (
-     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-white'>
+     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-400 z-10'>
         <ul className="hidden md:flex">
             <li>
                 <Link to="home" smooth={true} duration={500}>
@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
 
         
-        <ul className={nav===false ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#4b75ac] flex flex-col justify-center items-center'}>
+        <ul className={nav===false ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[rgb(11,9,9)] flex flex-col justify-center items-center text-grey-400'}>
             <li className="py-6 text-4xl">
                 <Link onClick={handleCLick} to="home" smooth={true} duration={500}>
                 Home

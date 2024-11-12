@@ -17,7 +17,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div name="home" className="w-full h-screen relative">
+    <div name="home" className="w-full h-screen relative z-10">
 
       <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover">
         <source src={videoBackground} type="video/mp4" />
@@ -25,15 +25,15 @@ const Home = () => {
       </video>
 
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full relative z-10">
-        <p className="text-white text-slide">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-white text-slide">Kovács-Farkas Dávid</h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-white text-slide">I'm a Frontend Developer</h2>
-        <p className="text-white py-4 max-w-[700px] text-slide">
+        <p className="text-gray-100 text-slide">Hi, my name is</p>
+        <h1 className="text-4xl sm:text-7xl font-bold text-gray-100 text-slide">Kovács-Farkas Dávid</h1>
+        <h2 className="text-4xl sm:text-7xl font-bold text-gray-100 text-slide">I'm a Frontend Developer</h2>
+        <p className="text-gray-100 py-4 max-w-[700px] text-slide">
           Welcome to my website, you can see my work and find my contact details.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center">
+            <button className="text-gray-100 group border-2 px-6 py-3 my-2 flex items-center">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-2" />
@@ -42,6 +42,9 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <p className="absolute bottom-4 right-4 text-lg font-semibold text-gray-400 opacity-60">
+          Home
+      </p>
     </div>
   );
 }

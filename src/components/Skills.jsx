@@ -11,7 +11,8 @@ import Tailwind from '../assets/tailwind.png';
 import Ionic from '../assets/ionic.png';
 import MongoDB from '../assets/MongoDB.png';
 import Postman from '../assets/Postman.png';
-import Angular from '../assets/Angular.png'
+import Angular from '../assets/Angular.png';
+import Typescript from '../assets/typescript.png'
 import videoBackground from '../assets/background2.mp4';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -28,22 +29,22 @@ const Skills = () => {
     { src: Ionic, title: 'Ionic' },
     { src: MongoDB, title: 'MongoDB' },
     { src: Postman, title: 'Postman' },
-    { src: Angular, title: 'Angular'}
+    { src: Angular, title: 'Angular'},
+    { src: Typescript, title: 'Typescript'}
   ];
 
   useEffect(() => {
-    // Kártyák animálása
     gsap.utils.toArray('.skill-card').forEach((card, index) => {
       gsap.from(card, {
         opacity: 0,
         y: 50,
         duration: 1,
-        delay: index * 0.2, // Minden kártya késleltetve jelenik meg
+        delay: index * 0.2, 
         scrollTrigger: {
           trigger: card, 
           start: 'top 80%', 
           end: 'top 20%', 
-          scrub: true, // A görgetés hatására folyamatosan animálódik
+          scrub: true, 
           toggleActions: 'play none reverse none', 
         },
       });

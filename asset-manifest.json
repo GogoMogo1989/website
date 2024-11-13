@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.80b2e1c5.css",
-    "main.js": "/website/static/js/main.90956f87.js",
+    "main.css": "/website/static/css/main.758c8a16.css",
+    "main.js": "/website/static/js/main.b9b91872.js",
     "static/media/background2.mp4": "/website/static/media/background2.716f21596ab0e1dec8cb.mp4",
     "static/media/background.mp4": "/website/static/media/background.824a1c5605b936e406b8.mp4",
-    "static/media/Profile.jpg": "/website/static/media/Profile.6468c293d71b5b0dacf7.jpg",
+    "static/media/Pizza_MERN.png": "/website/static/media/Pizza_MERN.fad2034473ef3983349c.png",
+    "static/media/Website.png": "/website/static/media/Website.73b06e11bea701a9488e.png",
     "static/media/MongoDB.png": "/website/static/media/MongoDB.0a3517e2bc8998b86203.png",
-    "static/media/Ionic-React.jpg": "/website/static/media/Ionic-React.114be0ee4594aaff9c28.jpg",
+    "static/media/Chat_Angular.png": "/website/static/media/Chat_Angular.f291b73ac92e739a44c0.png",
+    "static/media/Ionic-React.jpg": "/website/static/media/Ionic-React.f1f5c78b879840c6f461.jpg",
     "static/media/react.png": "/website/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/website/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/Nasa.jpg": "/website/static/media/Nasa.6c104c2b75dc229fd2ec.jpg",
-    "static/media/Blog.jpg": "/website/static/media/Blog.1f5034d88543dfc5962f.jpg",
-    "static/media/Weather-Api.jpg": "/website/static/media/Weather-Api.c593ed1cd420db56fea1.jpg",
     "static/media/github.png": "/website/static/media/github.3b9e32903aa89111875d.png",
     "static/media/ionic.png": "/website/static/media/ionic.9991613c51e5ea55cb80.png",
     "static/media/html.png": "/website/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/Blog.jpg": "/website/static/media/Blog.311d16715e6d7deb819d.jpg",
     "static/media/css.png": "/website/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/website/index.html",
-    "main.80b2e1c5.css.map": "/website/static/css/main.80b2e1c5.css.map",
-    "main.90956f87.js.map": "/website/static/js/main.90956f87.js.map"
+    "main.758c8a16.css.map": "/website/static/css/main.758c8a16.css.map",
+    "main.b9b91872.js.map": "/website/static/js/main.b9b91872.js.map"
   },
   "entrypoints": [
-    "static/css/main.80b2e1c5.css",
-    "static/js/main.90956f87.js"
+    "static/css/main.758c8a16.css",
+    "static/js/main.b9b91872.js"
   ]
 }

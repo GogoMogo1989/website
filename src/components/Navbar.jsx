@@ -40,10 +40,10 @@ const Navbar = () => {
 
       {/* Sidebar icons */}
       <div className={`fixed top-[35%] left-0 ${sideMenu ? 'translate-x-0' : '-translate-x-[90%]'} transition-transform duration-300 lg:translate-x-0`}>
-        <div className='cursor-pointer bg-gray-800 text-white w-6 h-6 flex items-center justify-center' onClick={toggleSideMenu}>
+        <div className='cursor-pointer bg-gray-100 text-white w-6 h-6 flex items-center justify-center' onClick={toggleSideMenu}>
           {sideMenu ? <FaTimes /> : <FaBars />}
         </div>
-        <ul className='flex flex-col items-center bg-gray-800 p-2 space-y-4 w-[160px]'>
+        <ul className='flex flex-col items-center bg-gray-100 p-2 space-y-4 w-[160px]'>
           <li className='w-full flex items-center justify-between bg-blue-600 p-2 hover:ml-2 transition-all duration-300'>
             <a className='flex justify-between items-center w-full text-white' href="https://www.linkedin.com/in/d%C3%A1vid-kov%C3%A1cs-farkas-733732241/">
               LinkedIn <FaLinkedin size={30} />

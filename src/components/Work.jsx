@@ -102,7 +102,7 @@ const Work = () => {
                 </p>
               </div>
               <div className="pt-1">
-                <a href="https://github.com/GogoMogo1989/pizza_MERN" className="text-sm text-gray-500 font-medium underline">
+                <a href="https://github.com/GogoMogo1989/pizza_MERN" className="text-sm text-gray-400 font-medium underline">
                   Code
                 </a>
               </div>

@@ -6,10 +6,8 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [sideMenu, setSideMenu] = useState(false);
 
   const handleClick = () => setNav(!nav);
-  const toggleSideMenu = () => setSideMenu(!sideMenu);
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-400 z-10'>
@@ -38,30 +36,26 @@ const Navbar = () => {
         <li className="py-6 text-4xl"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
       </ul>
 
-      {/* Sidebar icons */}
-      <div className={`fixed top-[35%] left-0 ${sideMenu ? 'translate-x-0' : '-translate-x-[90%]'} transition-transform duration-300 lg:translate-x-0`}>
-        <div className='cursor-pointer bg-gray-100 text-white w-6 h-6 flex items-center justify-center' onClick={toggleSideMenu}>
-          {sideMenu ? <FaTimes /> : <FaBars />}
-        </div>
-        <ul className='flex flex-col items-center bg-gray-100 p-2 space-y-4 w-[160px]'>
-          <li className='w-full flex items-center justify-between bg-blue-600 p-2 hover:ml-2 transition-all duration-300'>
-            <a className='flex justify-between items-center w-full text-white' href="https://www.linkedin.com/in/d%C3%A1vid-kov%C3%A1cs-farkas-733732241/">
-              LinkedIn <FaLinkedin size={30} />
+      <div className='fixed top-[35%] left-[50px] flex flex-col'>
+        <ul>
+          <li className='w-[60px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] duration-300 bg-blue-600'>
+            <a className='flex justify-center items-center w-full text-white' href="https://www.linkedin.com/in/d%C3%A1vid-kov%C3%A1cs-farkas-733732241/">
+              <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-full flex items-center justify-between bg-[#333333] p-2 hover:ml-2 transition-all duration-300'>
-            <a className='flex justify-between items-center w-full text-white' href="https://github.com/GogoMogo1989">
-              Github <FaGithub size={30} />
+          <li className='w-[60px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] duration-300 bg-[#333333]'>
+            <a className='flex justify-center items-center w-full text-white' href="https://github.com/GogoMogo1989">
+             <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-full flex items-center justify-between bg-[#6fc2b0] p-2 hover:ml-2 transition-all duration-300'>
-            <a className='flex justify-between items-center w-full text-white' href="/">
-              Email <HiOutlineMail size={30} />
+          <li className='w-[60px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] duration-300 bg-[#6fc2b0]'>
+            <a className='flex justify-center items-center w-full text-white' href="/">
+              <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-full flex items-center justify-between bg-[#565f69] p-2 hover:ml-2 transition-all duration-300'>
-            <a className='flex justify-between items-center w-full text-white' href="/">
-              Resumee <BsFillPersonLinesFill size={30} />
+          <li className='w-[60px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-50px] duration-300 bg-[#565f69]'>
+            <a className='flex justify-center items-center w-full text-white' href="/">
+              <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

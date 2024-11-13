@@ -138,7 +138,7 @@ const Work = () => {
             ></div>
             <div className="p-2 mt-2">
               <span className="text-sm text-gray-400 tracking-wide">
-                Ionic-React Input
+               Input
               </span>
               <div className="pt-1">
                 <p className="text-sm text-gray-400">

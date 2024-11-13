@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e23fd441.css",
-    "main.js": "/website/static/js/main.e9a95c39.js",
+    "main.js": "/website/static/js/main.a9156f4b.js",
     "static/media/background2.mp4": "/website/static/media/background2.716f21596ab0e1dec8cb.mp4",
     "static/media/background.mp4": "/website/static/media/background.824a1c5605b936e406b8.mp4",
     "static/media/Pizza_MERN.png": "/website/static/media/Pizza_MERN.fad2034473ef3983349c.png",
     "static/media/Website.png": "/website/static/media/Website.73b06e11bea701a9488e.png",
+    "static/media/typescript.png": "/website/static/media/typescript.239bcaac755341c67add.png",
     "static/media/MongoDB.png": "/website/static/media/MongoDB.0a3517e2bc8998b86203.png",
     "static/media/Chat_Angular.png": "/website/static/media/Chat_Angular.f291b73ac92e739a44c0.png",
     "static/media/Ionic-React.jpg": "/website/static/media/Ionic-React.f1f5c78b879840c6f461.jpg",
@@ -20,10 +21,10 @@
     "static/media/javascript.png": "/website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/website/index.html",
     "main.e23fd441.css.map": "/website/static/css/main.e23fd441.css.map",
-    "main.e9a95c39.js.map": "/website/static/js/main.e9a95c39.js.map"
+    "main.a9156f4b.js.map": "/website/static/js/main.a9156f4b.js.map"
   },
   "entrypoints": [
     "static/css/main.e23fd441.css",
-    "static/js/main.e9a95c39.js"
+    "static/js/main.a9156f4b.js"
   ]
 }

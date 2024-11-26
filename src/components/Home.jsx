@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
-import { Link } from 'react-scroll';
 import { gsap } from 'gsap';
 import videoBackground from '../assets/background.mp4';
 

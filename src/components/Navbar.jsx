@@ -36,28 +36,40 @@ const Navbar = () => {
 
       <div className='fixed top-[35%] left-[50px] flex flex-col'>
         <ul>
-          <li className='w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-blue-600'>
+          <li className='relative w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-blue-600 group'>
             <a className='flex justify-center items-center w-full text-white' href="https://www.linkedin.com/in/d%C3%A1vid-kov%C3%A1cs-farkas-733732241/">
               <FaLinkedin size={30} />
             </a>
+            <p className='absolute top-[37%] left-[128%] transform translate-x-[-120%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[10px] rotate-90'>
+              LinkedIn
+            </p>
           </li>
-          <li className='w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-[#333333]'>
+          <li className='relative w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-[#333333] group'>
             <a className='flex justify-center items-center w-full text-white' href="https://github.com/GogoMogo1989">
              <FaGithub size={30} />
             </a>
+            <p className='absolute top-[37%] left-[135%] transform translate-x-[-163%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[10px] rotate-90'>
+              Github
+            </p>
           </li>
           <Link to="email" smooth={true} duration={500} >
-            <li className='w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-[#6fc2b0]'>
+            <li className='relative w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-[#6fc2b0] group'>
                 <a className='flex justify-center items-center w-full text-white' href="/">
                 <HiOutlineMail size={30} />
                 </a>
+                <p className='absolute top-[37%] left-[128%] transform translate-x-[-160%] opacity-100 group-hover:opacity-0  duration-300 text-white text-[10px] rotate-90'>
+                  Email
+                </p>
             </li>
           </Link>
           <Link to="resumee" smooth={true} duration={500}>
-            <li className='w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-[#565f69]'>
+            <li className='relative w-[80px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-50px] duration-300 bg-[#565f69] group'>
                 <a className='flex justify-center items-center w-full text-white' href="/">
                 <BsFillPersonLinesFill size={30} />
                 </a>
+                <p className='absolute top-[37%] left-[128%] transform translate-x-[-113%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[10px] rotate-90'>
+                  Resumee
+                </p>
             </li>
           </Link>
         </ul>

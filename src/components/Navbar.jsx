@@ -40,7 +40,7 @@ const Navbar = () => {
             <a className='flex justify-center items-center w-full text-white' href="https://www.linkedin.com/in/d%C3%A1vid-kov%C3%A1cs-farkas-733732241/">
               <FaLinkedin size={30} />
             </a>
-            <p className='absolute top-[37%] left-[121%] transform translate-x-[-120%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[8px] rotate-90'>
+            <p className='absolute top-[40%] left-[120%] transform translate-x-[-120%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[8px] rotate-90'>
               LinkedIn
             </p>
           </li>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <a className='flex justify-center items-center w-full text-white' href="https://github.com/GogoMogo1989">
              <FaGithub size={30} />
             </a>
-            <p className='absolute top-[37%] left-[128%] transform translate-x-[-163%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[8px] rotate-90'>
+            <p className='absolute top-[40%] left-[127%] transform translate-x-[-163%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[8px] rotate-90'>
               Github
             </p>
           </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <a className='flex justify-center items-center w-full text-white' href="/">
                 <HiOutlineMail size={30} />
                 </a>
-                <p className='absolute top-[37%] left-[121%] transform translate-x-[-160%] opacity-100 group-hover:opacity-0  duration-300 text-white text-[8px] rotate-90'>
+                <p className='absolute top-[40%] left-[121%] transform translate-x-[-160%] opacity-100 group-hover:opacity-0  duration-300 text-white text-[8px] rotate-90'>
                   Email
                 </p>
             </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 <a className='flex justify-center items-center w-full text-white' href="/">
                 <BsFillPersonLinesFill size={30} />
                 </a>
-                <p className='absolute top-[37%] left-[121%] transform translate-x-[-113%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[8px] rotate-90'>
+                <p className='absolute top-[40%] left-[120%] transform translate-x-[-113%] opacity-100 group-hover:opacity-0 duration-300 text-white text-[8px] rotate-90'>
                   Resumee
                 </p>
             </li>

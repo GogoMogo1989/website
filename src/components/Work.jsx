@@ -105,6 +105,9 @@ const Work = () => {
                 <a href="https://github.com/GogoMogo1989/pizza_MERN" className="text-sm text-gray-400 font-medium underline">
                   Code
                 </a>
+                <a href="https://bestpizzakfd.netlify.app/" className="text-sm text-gray-400 font-medium underline pl-1">
+                  Demo
+                </a>
               </div>
             </div>
           </SwiperSlide>

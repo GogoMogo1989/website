@@ -16,7 +16,7 @@ const Contact = () => {
           Contact
         </p>
         <p className="absolute bottom-4 left-1/2 transform -translate-x-1/2  text-gray-400 opacity-60">
-          Designed by KFD, 2024
+          Developed by KFD, 2024
         </p>
     </div>
   )

@@ -98,7 +98,7 @@ const Work = () => {
               </span>
               <div className="pt-1">
                 <p className="text-sm text-gray-400">
-                The page was created using MERN (MongoDb-Express-React-Node) technology. The site is a fictitious pizzeria website where the user can order, with or without registration. The site includes an admin interface where orders can be managed or new products can be added, edited or deleted. 
+                The page was created using MERN (MongoDb-Express-React-Node) technology. The site is a fictitious pizzeria website where the user can order, with or without registration. The site includes an admin interface where orders can be managed or new products can be added, edited or deleted. If you are curious about the admin page (https://bestpizzakfd.netlify.app/adminlogin), you can register, secretkey: Silverland2024.
                 </p>
               </div>
               <div className="pt-1">
